@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>KOLDER | Hielo</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="brand" href="/">
+        <span class="brand-badge">
+          <img src="https://www.kolder.cl/cdn/shop/files/Logo_Kolder_White_Small_e4cba30e-3617-4a1a-bf26-b63ce33d1f8b_140x@2x.png" alt="KOLDER" class="brand__logo" />
+        </span>
+      </a>
+
+      <button id="menuButton" class="hamburger" aria-label="Abrir menú" aria-controls="drawer" aria-expanded="false">
+        <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="hero">
+    <div class="hero__inner">
+      <h1 class="hero__title">Hielo para almacenes, eventos y horeca</h1>
+      <p class="hero__subtitle">Mayorista y minorista. Entrega rápida y calidad garantizada.</p>
+    </div>
+  </main>
+
+  <div id="backdrop" class="drawer-backdrop" hidden></div>
+
+  <aside id="drawer" class="drawer" aria-hidden="true" tabindex="-1">
+    <div class="drawer__header">
+      <img src="https://www.kolder.cl/cdn/shop/files/Logo_Kolder_White_Small_e4cba30e-3617-4a1a-bf26-b63ce33d1f8b_140x@2x.png" alt="KOLDER" class="brand__logo" />
+      <button id="closeButton" class="drawer__close" aria-label="Cerrar menú">✕</button>
+    </div>
+
+    <nav class="drawer__nav" aria-label="Menú principal">
+      <ul>
+        <li><a href="hielo-cubos-1kg.html">Hielo en Cubos 1 kg</a></li>
+        <li><a href="hielo-cubos-2kg.html">Hielo en Cubos 2 kg</a></li>
+        <li><a href="hielo-frappe-2kg.html">Hielo Frappe 2 kg</a></li>
+        <li><a href="hielo-escamas-25kg.html">Hielo en Escamas 25 kg</a></li>
+      </ul>
+    </nav>
+
+    <div class="drawer__footer">
+      <div class="drawer__links">
+        <a href="contacto.html">Contacto</a>
+        <span class="sep">•</span>
+        <a href="https://wa.me/56900000000" target="_blank" rel="noopener">Whatsapp</a>
+      </div>
+      <small class="drawer__legal">KOLDER SPA © 2025</small>
+    </div>
+  </aside>
+
+  <script src="assets/main.js" defer></script>
+</body>
+</html>
